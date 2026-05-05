@@ -48,12 +48,3 @@
 **CTF & Security Research**
 - HackTheBox challenges focused on network enumeration and packet analysis
 - Documenting techniques and write-ups
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rvmchua&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rvmchua&layout=compact&theme=dark&hide_border=true" height="150" />
-</p>
