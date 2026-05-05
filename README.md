@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://rvmchua.com"><img src="https://img.shields.io/badge/Website-rvmchua.com-blue?style=flat-square&logo=firefox-browser&logoColor=white" /></a>
   <a href="https://linkedin.com/in/rvmchua"><img src="https://img.shields.io/badge/LinkedIn-rvmchua-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://app.hackthebox.com/profile/rvmchua"><img src="https://img.shields.io/badge/HackTheBox-rvmchua-9FEF00?style=flat-square&logo=hackthebox&logoColor=black" /></a>
+  <a href="https://app.hackthebox.com/public/users/894538"><img src="https://img.shields.io/badge/HackTheBox-rvmchua-9FEF00?style=flat-square&logo=hackthebox&logoColor=black" /></a>
 </p>
 
 ---
