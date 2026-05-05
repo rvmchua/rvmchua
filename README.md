@@ -9,6 +9,8 @@
   <a href="https://rvmchua.com"><img src="https://img.shields.io/badge/Website-rvmchua.com-blue?style=flat-square&logo=firefox-browser&logoColor=white" /></a>
   <a href="https://linkedin.com/in/rvmchua"><img src="https://img.shields.io/badge/LinkedIn-rvmchua-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="https://app.hackthebox.com/public/users/894538"><img src="https://img.shields.io/badge/HackTheBox-rvmchua-9FEF00?style=flat-square&logo=hackthebox&logoColor=black" /></a>
+  <a href="mailto:rvmchua@gmail.com"><img src="https://img.shields.io/badge/Gmail-rvmchua-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:royce.chua@rvmchua.com"><img src="https://img.shields.io/badge/Email-royce.chua@rvmchua.com-blue?style=flat-square&logo=mail.ru&logoColor=white" /></a>
 </p>
 
 ---
