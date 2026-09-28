@@ -40,8 +40,8 @@ This rigorous scientific background shaped my analytical approach to problem-sol
 
 ## 🚀 Featured Projects
 
-### 🍔 Food Ordering REST API *(In Development)*
-*My primary backend portfolio project modeling a robust e-commerce and order lifecycle.*
+### 🍔 [Food Ordering REST API](https://github.com/rvmchua/ordertaker) *(In Development)*
+*My primary backend portfolio project modeling a robust restaurant and order lifecycle.*
 *   **Architecture:** Built in Spring Boot across four iterative phases (CRUD, Order Placement, State Machine, JWT Auth). 
 *   **State Machine Design:** The order lifecycle (`Pending` -> `Confirmed` -> `Preparing` -> `For Pickup` -> `Received` / `Cancelled`) is modeled explicitly as a state machine. Status updates are handled via a single generic API endpoint validated against this machine on the server side.
 *   **Data Modeling:** Kept the domain model clean by isolating Cart and CartItem tables from the order state machine. Implemented soft deletes with an approval step for restaurant profiles.
