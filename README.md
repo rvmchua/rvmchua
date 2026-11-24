@@ -81,7 +81,6 @@ Public repositories document my work in systems administration, networking, and 
 - [Packet Captures](https://github.com/rvmchua/pcaps-for-analysis): Packet captures used for network and traffic analysis exercises
 - [APOP Cracker](https://github.com/rvmchua/apop_cracker): A Python tool for dictionary testing against POP/APOP authentication in authorized environments
 - [Dotfiles](https://github.com/rvmchua/dotfiles): Configuration for a Debian workstation
-- [EVE-NG and GNS3 Images](https://github.com/rvmchua/images_eve-ng): Networking lab resources for hands-on infrastructure practice
 
 Security-related projects and CTF exercises are intended solely for authorized education and controlled lab environments.
 
