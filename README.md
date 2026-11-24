@@ -1,80 +1,96 @@
-<h1 align="center"> Hi there, I'm Royce 👋 </h1>
+<h1 align="center">Hi, I'm Royce Vincent Chua 👋</h1>
+
 <div align="center">
 
-  <h3>Backend Developer | Java & Spring Boot</h3>
-  <p>📍 Caloocan, Metro Manila, Philippines</p>
-  <a href="mailto:royce.chua@rvmchua.com"><img src="https://img.shields.io/badge/Email-royce.chua%40rvmchua.com-blue?style=for-the-badge&logo=gmail" alt="Email"></a>
+### Java Developer & Systems Enthusiast
+
+📍 Caloocan, Metro Manila, Philippines
+
+[![Email](https://img.shields.io/badge/Email-royce.chua%40rvmchua.com-blue?style=for-the-badge&logo=gmail)](mailto:royce.chua@rvmchua.com)
+
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I am a Backend Developer specializing in **Java** and **Spring Boot**, with a deep interest in software architecture, networking, and systems administration. My path to software engineering is a bit unconventional: I graduated with a degree in Physics on a pre-med track from De La Salle University and spent three years in medical school before realizing that designing software and systems was what I truly wanted to pursue.
+I'm a Java developer focused on backend engineering, REST API design, relational databases, and the infrastructure that supports applications. My public repositories reflect both hands-on Spring development and a broader interest in networking, homelabs, Linux systems, and cybersecurity.
 
-This rigorous scientific background shaped my analytical approach to problem-solving. Whether I'm designing an explicit state machine for an order lifecycle, implementing custom attribute-based access control, or configuring a homelab domain controller, I enjoy diving deep into how things work under the hood.
-
-*   💻 **Current Focus:** Building robust REST APIs with Java and Spring Boot.
-*   🐧 **Daily Driver:** Debian Trixie + i3 + zsh.
-*   📝 **Knowledge Base:** Heavily reliant on Obsidian with Git-based sync.
-*   📚 **Currently Learning:** Redis caching strategies and other data-intensive application.
+- Building REST APIs and stateful backend workflows with **Java and Spring Boot**
+- Practicing persistence and database design with **JPA, Hibernate, JDBC, PostgreSQL, and MySQL**
+- Exploring system administration through a Windows and Debian homelab
+- Studying network traffic and web security through CTF writeups and packet analysis
+- Certified in **TESDA Programming (Java) NC III**
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack
 
-**Backend**  
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+**Development**
 
-**Infrastructure & Operations**  
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
+**Infrastructure & Tools**
+
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🍔 [Food Ordering REST API](https://github.com/rvmchua/ordertaker) *(In Development)*
-*My primary backend portfolio project modeling a robust restaurant and order lifecycle.*
-*   **Architecture:** Built in Spring Boot across four iterative phases (CRUD, Order Placement, State Machine, JWT Auth). 
-*   **State Machine Design:** The order lifecycle (`Pending` -> `Confirmed` -> `Preparing` -> `For Pickup` -> `Received` / `Cancelled`) is modeled explicitly as a state machine. Status updates are handled via a single generic API endpoint validated against this machine on the server side.
-*   **Data Modeling:** Kept the domain model clean by isolating Cart and CartItem tables from the order state machine. Implemented soft deletes with an approval step for restaurant profiles.
-*   **Documentation:** Architecture and UML diagrams built with Mermaid, version-controlled alongside Obsidian notes.
+### 🍔 [OrderTaker](https://github.com/rvmchua/ordertaker)
 
-### 🏥 Healthcare Portal & Immutable Audit Logger *(In Development)*
-*A high-security backend for medical records focused on concurrency and strict access control.*
-*   **Security & ABAC:** Implementing attribute-based access control (ABAC) using a custom Spring Expression Language (SpEL) security evaluator across 4 distinct user roles.
-*   **Immutable Auditing:** Designing an append-only audit log using **Spring AOP** to ensure user actions are recorded seamlessly and cannot be altered.
-*   **Concurrency Control:** Utilizing pessimistic locking to prevent race conditions (e.g., double-booking an appointment slot).
-*   **Stack:** PostgreSQL (with Liquibase/Flyway), Spring Security (JWT), Redis, Docker Compose, Testcontainers, and Actuator/Micrometer for monitoring.
+An in-progress food-ordering REST API built with Java 21 and Spring Boot. It includes restaurant and menu management, customer carts and checkout, persisted orders, price snapshots, cancellation handling, an explicit order-state lifecycle, MapStruct mapping, Flyway migrations, and a layered JUnit test suite.
 
----
+### 🏦 [Simple Banking Application](https://github.com/rvmchua/prj-project)
 
-## 🖥️ Systems, IT & Homelab Experience
+A command-line banking application created for TESDA Programming (Java) NC III. It uses Java, Maven, MySQL, and JDBC for account management, deposits, withdrawals, transfers, and transaction history, with UML and database design documentation.
 
-I believe good developers need to understand the infrastructure their code runs on. Beyond coding, I have hands-on experience deploying and troubleshooting real-world networks:
+### 🍃 [Spring Framework API Practice](https://github.com/rvmchua/spring-boot-api-practice)
 
-*   **Homelab Environment:** Built and maintain a Windows Server domain controller with Debian clients joined via Active Directory, Kerberos, and LDAP. I use Docker and VirtualBox for isolated, reproducible testing. 
-*   **Systems Administration (2024 - 2025):** Act as the on-call IT/Network Administrator for my family's print business. I handle hardware troubleshooting, network deployment (APs and Ethernet drops), OS deployment, and endpoint security.
-*   **Web & Email Security:** Deployed a personal site built with Hugo and hosted on Netlify, sitting behind Cloudflare. Configured strict email security policies (SPF, DKIM, and DMARC) to defend against spoofing and phishing.
+A collection of independent Spring Boot projects for practicing REST APIs, Spring Data JPA, security concepts, request validation, exception handling, DTO mapping, Maven, and automated testing.
+
+### 🧪 [JDBC Practice](https://github.com/rvmchua/jdbc-topic)
+
+A Java JDBC practice repository covering database connectivity and SQL-backed application logic.
+
+### 🇵🇭 [Java NC III Exercises](https://github.com/rvmchua/java-nc3-ciicc)
+
+A repository of Java exercises associated with TESDA NC III programming coursework.
 
 ---
 
-## 📜 Certifications
+## Systems & Cybersecurity
 
-*   **Java Programming (NCIII)** - *TESDA (Technical Education and Skills Development Authority)*
-*   **Certified in Cybersecurity (CC)** - *ISC2 (Expired - Earned during my exploration of info-sec)*
+I use public repositories to document and practice work beyond application development:
+
+- 🖥️ [Homelab Documentation](https://github.com/rvmchua/homelab-docs) — Active Directory, Windows and Linux administration, screenshots, and learning notes
+- 🚩 [CTF Writeups](https://github.com/rvmchua/ctf-writeups) — Walkthroughs covering web exploitation, network analysis, Kerberos, LDAP, and privilege escalation
+- 📡 [Packet Captures](https://github.com/rvmchua/pcaps-for-analysis) — Packet captures for network and traffic analysis
+- 🔑 [APOP Cracker](https://github.com/rvmchua/apop_cracker) — A Python tool for dictionary attacks against POP/APOP authentication
+- 🐧 [Dotfiles](https://github.com/rvmchua/dotfiles) — Configuration for a Debian workstation
+- 🌐 [EVE-NG and GNS3 Images](https://github.com/rvmchua/images_eve-ng) — Appliance images for networking labs and hands-on infrastructure practice
+
+> I use some security projects and CTF work for authorized education and personal lab environments only.
 
 ---
 
-## 📫 Let's Connect
+## Certification
 
-I'm always open to discussing backend architecture, Java development, or trading homelab notes. 
+- **Java Programming (NC III)** — TESDA
 
-*   **Email:** [royce.chua@rvmchua.com](mailto:royce.chua@rvmchua.com)
-*   **Location:** Caloocan, Metro Manila, Philippines
+---
+
+## Let's Connect
+
+I'm interested in backend architecture, Java and Spring development, databases, homelabs, networking, and systems administration.
+
+- **Email:** [royce.chua@rvmchua.com](mailto:royce.chua@rvmchua.com)
+- **GitHub:** [github.com/rvmchua](https://github.com/rvmchua)
