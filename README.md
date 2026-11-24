@@ -1,30 +1,33 @@
-<h1 align="center">Hi, I'm Royce Vincent Chua 👋</h1>
+<h1 align="center">Royce Vincent Chua</h1>
 
 <div align="center">
 
-### Java Developer & Systems Enthusiast
+### Java Developer | Backend Engineering and Systems Administration
 
-📍 Caloocan, Metro Manila, Philippines
+Caloocan, Metro Manila, Philippines
 
 [![Email](https://img.shields.io/badge/Email-royce.chua%40rvmchua.com-blue?style=for-the-badge&logo=gmail)](mailto:royce.chua@rvmchua.com)
+[![GitHub](https://img.shields.io/badge/GitHub-rvmchua-181717?style=for-the-badge&logo=github)](https://github.com/rvmchua)
 
 </div>
 
 ---
 
-## About Me
+## Professional Summary
 
-I'm a Java developer focused on backend engineering, REST API design, relational databases, and the infrastructure that supports applications. My public repositories reflect both hands-on Spring development and a broader interest in networking, homelabs, Linux systems, and cybersecurity.
+Java developer with practical experience in backend engineering, REST API development, relational database design, and systems administration. My work combines Java and Spring Boot application development with hands-on experience in Linux and Windows environments, networking, and technical documentation.
 
-- Building REST APIs and stateful backend workflows with **Java and Spring Boot**
-- Practicing persistence and database design with **JPA, Hibernate, JDBC, PostgreSQL, and MySQL**
-- Exploring system administration through a Windows and Debian homelab
-- Studying network traffic and web security through CTF writeups and packet analysis
-- Certified in **TESDA Programming (Java) NC III**
+- Backend API and service development using Java and Spring Boot
+- Relational data modeling and persistence using JPA, Hibernate, JDBC, PostgreSQL, and MySQL
+- Automated testing with JUnit, Mockito, MockMvc, H2, and Spring test slices
+- Application build and dependency management with Maven
+- Homelab administration across Debian and Windows Server environments
+- Network troubleshooting and security analysis through controlled CTF and lab exercises
+- TESDA Java Programming (NC III) certification
 
 ---
 
-## Tech Stack
+## Technical Skills
 
 **Development**
 
@@ -34,7 +37,7 @@ I'm a Java developer focused on backend engineering, REST API design, relational
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-**Infrastructure & Tools**
+**Infrastructure and Tooling**
 
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -43,54 +46,54 @@ I'm a Java developer focused on backend engineering, REST API design, relational
 
 ---
 
-## Featured Projects
+## Selected Projects
 
-### 🍔 [OrderTaker](https://github.com/rvmchua/ordertaker)
+### [OrderTaker](https://github.com/rvmchua/ordertaker)
 
-An in-progress food-ordering REST API built with Java 21 and Spring Boot. It includes restaurant and menu management, customer carts and checkout, persisted orders, price snapshots, cancellation handling, an explicit order-state lifecycle, MapStruct mapping, Flyway migrations, and a layered JUnit test suite.
+An in-progress food-ordering REST API developed with Java 21 and Spring Boot. The implementation covers restaurant and menu management, customer carts and checkout, persisted orders, price snapshots, cancellation workflows, and an explicit order-state lifecycle.
 
-### 🏦 [Simple Banking Application](https://github.com/rvmchua/prj-project)
+Key technologies and practices include Spring MVC, Spring Data JPA, PostgreSQL, Flyway, MapStruct, JUnit 5, Mockito, MockMvc, H2, Maven, and UML documentation.
 
-A command-line banking application created for TESDA Programming (Java) NC III. It uses Java, Maven, MySQL, and JDBC for account management, deposits, withdrawals, transfers, and transaction history, with UML and database design documentation.
+### [Simple Banking Application](https://github.com/rvmchua/prj-project)
 
-### 🍃 [Spring Framework API Practice](https://github.com/rvmchua/spring-boot-api-practice)
+A command-line banking application developed as the final project for TESDA Programming (Java) NC III. The application uses Java, Maven, MySQL, and JDBC for account management, deposits, withdrawals, transfers, transaction history, and database-backed data access.
 
-A collection of independent Spring Boot projects for practicing REST APIs, Spring Data JPA, security concepts, request validation, exception handling, DTO mapping, Maven, and automated testing.
+### [Spring Framework API Practice](https://github.com/rvmchua/spring-boot-api-practice)
 
-### 🧪 [JDBC Practice](https://github.com/rvmchua/jdbc-topic)
+A collection of independent Spring Boot projects used to practice REST API development, Spring Data JPA, request validation, exception handling, DTO mapping, Maven, and automated testing.
 
-A Java JDBC practice repository covering database connectivity and SQL-backed application logic.
+### [JDBC Practice](https://github.com/rvmchua/jdbc-topic)
 
-### 🇵🇭 [Java NC III Exercises](https://github.com/rvmchua/java-nc3-ciicc)
+Java exercises focused on database connectivity, SQL execution, and application-to-database integration using JDBC.
 
-A repository of Java exercises associated with TESDA NC III programming coursework.
+### [Java NC III Exercises](https://github.com/rvmchua/java-nc3-ciicc)
+
+A repository of Java exercises completed as part of TESDA NC III programming coursework.
 
 ---
 
-## Systems & Cybersecurity
+## Systems and Security Experience
 
-I use public repositories to document and practice work beyond application development:
+Public repositories document my work in systems administration, networking, and cybersecurity:
 
-- 🖥️ [Homelab Documentation](https://github.com/rvmchua/homelab-docs) — Active Directory, Windows and Linux administration, screenshots, and learning notes
-- 🚩 [CTF Writeups](https://github.com/rvmchua/ctf-writeups) — Walkthroughs covering web exploitation, network analysis, Kerberos, LDAP, and privilege escalation
-- 📡 [Packet Captures](https://github.com/rvmchua/pcaps-for-analysis) — Packet captures for network and traffic analysis
-- 🔑 [APOP Cracker](https://github.com/rvmchua/apop_cracker) — A Python tool for dictionary attacks against POP/APOP authentication
-- 🐧 [Dotfiles](https://github.com/rvmchua/dotfiles) — Configuration for a Debian workstation
-- 🌐 [EVE-NG and GNS3 Images](https://github.com/rvmchua/images_eve-ng) — Appliance images for networking labs and hands-on infrastructure practice
+- [Homelab Documentation](https://github.com/rvmchua/homelab-docs): Active Directory, Windows and Linux administration, network configuration, screenshots, and learning notes
+- [CTF Writeups](https://github.com/rvmchua/ctf-writeups): Technical walkthroughs covering web exploitation, network analysis, Kerberos, LDAP, and privilege escalation
+- [Packet Captures](https://github.com/rvmchua/pcaps-for-analysis): Packet captures used for network and traffic analysis exercises
+- [APOP Cracker](https://github.com/rvmchua/apop_cracker): A Python tool for dictionary testing against POP/APOP authentication in authorized environments
+- [Dotfiles](https://github.com/rvmchua/dotfiles): Configuration for a Debian workstation
+- [EVE-NG and GNS3 Images](https://github.com/rvmchua/images_eve-ng): Networking lab resources for hands-on infrastructure practice
 
-> I use some security projects and CTF work for authorized education and personal lab environments only.
+Security-related projects and CTF exercises are intended solely for authorized education and controlled lab environments.
 
 ---
 
 ## Certification
 
-- **Java Programming (NC III)** — TESDA
+- TESDA Java Programming (NC III)
 
 ---
 
-## Let's Connect
+## Contact
 
-I'm interested in backend architecture, Java and Spring development, databases, homelabs, networking, and systems administration.
-
-- **Email:** [royce.chua@rvmchua.com](mailto:royce.chua@rvmchua.com)
-- **GitHub:** [github.com/rvmchua](https://github.com/rvmchua)
+- Email: [royce.chua@rvmchua.com](mailto:royce.chua@rvmchua.com)
+- GitHub: [github.com/rvmchua](https://github.com/rvmchua)
